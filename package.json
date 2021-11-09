@@ -1,0 +1,54 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "test": "jest",
+    "clean": "watchman watch-del-all && rm -rf node_modules && rm -rf $TMPDIR/haste-map-* && rm -rf $TMPDIR/metro-* && rm -rf $TMPDIR/react-*"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "^5.8.0",
+    "@react-navigation/drawer": "^5.9.0",
+    "@react-navigation/material-bottom-tabs": "^5.2.16",
+    "@react-navigation/material-top-tabs": "^5.2.16",
+    "@react-navigation/native": "^5.8.9",
+    "@react-navigation/stack": "^5.12.6",
+    "axios": "^0.22.0",
+    "expo": "~39.0.2",
+    "expo-splash-screen": "~0.6.2",
+    "expo-status-bar": "~1.0.2",
+    "expo-updates": "~0.3.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-camera": "^4.2.1",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-paper": "^4.9.2",
+    "react-native-qrcode-scanner": "^1.5.4",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area": "^0.5.1",
+    "react-native-safe-area-context": "3.1.4",
+    "react-native-screens": "^2.15.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-tab-view": "^2.15.1",
+    "react-native-table-component": "^1.2.1",
+    "react-native-unimodules": "~0.11.0",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-web": "~0.13.7",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "babel-jest": "~25.2.6",
+    "jest": "~25.2.6",
+    "react-test-renderer": "~16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true
+}
